@@ -6,7 +6,7 @@ databases:
 
 services:
   - type: web
-    name: articles
+    name: alphablog
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
